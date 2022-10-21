@@ -17,3 +17,9 @@ function makeNegative(num) {
   }
 }
 makeNegative();
+
+// Valentyna Vilchak solution below
+function makeNegative(num) {
+ 
+return -Math.abs(num);
+}
