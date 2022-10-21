@@ -1,11 +1,12 @@
 // Yaryna Martyniuk below
+// +1 Valentyna Vilchak
 
 function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-    // code goes here
-    return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
-  }
-  
-// Iryna Litvinova below 
+  // code goes here
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
+
+// Iryna Litvinova below
 function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   let totalGoals = 0;
   for (let i = 0; i < arguments.length; i++) {
